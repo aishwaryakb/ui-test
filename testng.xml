@@ -3,14 +3,14 @@
 <suite thread-count = "1" name="Bren-First UI-TEST">
 	<listeners>
 	   	<listener class-name="com.bren.qa.listeners.ListenerClass"></listener>
-	   	<listener class-name="com.bren.qa.listeners.AnnotationTransformer"></listener>
+<!-- 	   	<listener class-name="com.bren.qa.listeners.AnnotationTransformer"></listener> -->
 	</listeners>
 	<test name="test1">
 		<classes>
 			<class name="com.bren.qa.testcases.OwnerProfilePageTest" />
 		</classes>
 	</test> 
-	<test name="test2">
+<!-- 	<test name="test2">
 		<classes>
 			<class name="com.bren.qa.testcases.ViewADocumentPageTest" />
 		</classes>
@@ -114,6 +114,6 @@
 		<classes>
 			<class name="com.bren.qa.testcases.ApartmentDetailPageTest" />
 		</classes>
-	</test>
+	</test> -->
 
 </suite> 
